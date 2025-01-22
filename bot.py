@@ -7,7 +7,7 @@ from aiogram.types import WebAppInfo
 from aiohttp import web
 
 # Replace with your bot token
-BOT_TOKEN = "5035987722:AAHFztiNcdHqxMqU5r3Uz17nD1IececpRIw"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Initialize bot and dispatcher
 bot = Bot(token=BOT_TOKEN)
