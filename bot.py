@@ -28,7 +28,7 @@ async def cmd_start(message: types.Message):
                     types.InlineKeyboardButton(
                         text="Play Snake",
                         web_app=WebAppInfo(
-                            url="https://davronbekdev.github.io/snake-game"
+                            url="https://a29e-45-150-25-102.ngrok-free.app"
                         ),
                     )
                 ]
